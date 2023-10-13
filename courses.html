@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" class="js-glass-style" href="glass.css" disabled>    
+    <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+
+    <!-- page loader starts -->
+    <div class="page-loader js-page-loader">
+        <div></div>
+    </div>
+    <!-- page loader ends -->
+
+    <!-- bubble animation starts -->
+    <div class="bubble-animation">
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+        <div class="bubble-animation-item"></div>
+    </div>
+    <!-- bubble animation ends -->
+
+
+    
+<!-- main wrapper starts -->
+<div class="main-wrapper">
+    <!-- header starts -->
+    
+    <header class="header">
+        <div class="container">
+            <div class="header-main d-flex justify-content-between align-items-center">
+                <div class="header-logo">
+                    <a href="index.html"><span>Fashion</span>ista</a>
+                </div>
+                <button type="button" class="header-hamburger-btn js-header-menu-toggler"><span></span></button>
+                <div class="header-backdrop js-header-backdrop"></div>
+                <nav class="header-menu js-header-menu">
+                    <button type="button" class="header-close-btn js-header-menu-toggler">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="courses.html" class="js-toggle-sub-menu">Courses <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu js-sub-menu">
+                                <li class="sub-menu-item"><a href="courses.html">Course</a></li>
+                                <li class="sub-menu-item"><a href="course-details.html">Course Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="login.html" class="js-toggle-sub-menu">Pages <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu js-sub-menu">
+                                <li class="sub-menu-item"><a href="login.html">Login</a></li>
+                                <li class="sub-menu-item"><a href="signup.html">Sign Up</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- breadcrumb starts -->
+    <div class="breadcrumb-nav">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Courses</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- breadcrumb ends -->
+
+    <!-- courses section starts -->
+    <section class="courses-section section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="section-title text-center mb-4">
+                        <h2 class="title">Our Courses</h2>
+                        <p class="sub-title">Find the right course for you !</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <nav>
+                        <div class="nav nav-tabs border-0 justify-content-center mb-4" id="nav-tab" role="tablist">
+                          <button class="nav-link active" id="fashion-design-tab" data-bs-toggle="tab" data-bs-target="#fashion-design" type="button" role="tab" aria-controls="fashion-design" aria-selected="true">Fashion Design</button>
+                          <button class="nav-link" id="fashion-tech-tab" data-bs-toggle="tab" data-bs-target="#fashion-tech" type="button" role="tab" aria-controls="fashion-tech" aria-selected="false">Fashion Technology</button>
+                          <button class="nav-link" id="modern-fashion-tab" data-bs-toggle="tab" data-bs-target="#modern-fashion" type="button" role="tab" aria-controls="modern-fashion" aria-selected="false">Modern Fashion</button>
+                        </div>
+                      </nav>
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="fashion-design" role="tabpanel" aria-labelledby="fashion-design-tab">
+                            <div class="row justify-content-center">
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?flowers" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Technology For Beginners</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?professor" alt="instructor img">
+                                                    <div class="instructor-name">John Doe</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(113450)</span>
+                                                </div>
+                                                <div class="price">$ 59</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?threads" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Technology Advance</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?woman" alt="instructor img">
+                                                    <div class="instructor-name">Priya Agarwal</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(76769)</span>
+                                                </div>
+                                                <div class="price">$ 79</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?university" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Design For Beginners</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?teacher" alt="instructor img">
+                                                    <div class="instructor-name">Smith Brown</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(253534)</span>
+                                                </div>
+                                                <div class="price">$ 49</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?classroom" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Design Advance</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?man" alt="instructor img">
+                                                    <div class="instructor-name">Kevin Harpen</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(90928)</span>
+                                                </div>
+                                                <div class="price">$ 59</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="fashion-tech" role="tabpanel" aria-labelledby="fashion-tech-tab">
+                            <div class="row justify-content-center">
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?heels" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Design Advance</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?boy" alt="instructor img">
+                                                    <div class="instructor-name">Kevin Harpen</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(90928)</span>
+                                                </div>
+                                                <div class="price">$ 59</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?shoes" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Technology For Beginners</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?girl" alt="instructor img">
+                                                    <div class="instructor-name">John Doe</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(113450)</span>
+                                                </div>
+                                                <div class="price">$ 59</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?shows" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Design For Beginners</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?people" alt="instructor img">
+                                                    <div class="instructor-name">Smith Brown</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(253534)</span>
+                                                </div>
+                                                <div class="price">$ 49</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?jewellary" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Technology Advance</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?employee" alt="instructor img">
+                                                    <div class="instructor-name">Priya Agarwal</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(76769)</span>
+                                                </div>
+                                                <div class="price">$ 79</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="modern-fashion" role="tabpanel" aria-labelledby="modern-fashion-tab">
+                            <div class="row justify-content-center">
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?nailart" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Design For Beginners</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?worker" alt="instructor img">
+                                                    <div class="instructor-name">Smith Brown</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(253534)</span>
+                                                </div>
+                                                <div class="price">$ 49</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?art" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Technology Advance</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?officer" alt="instructor img">
+                                                    <div class="instructor-name">Priya Agarwal</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(76769)</span>
+                                                </div>
+                                                <div class="price">$ 79</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?earring" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Design Advance</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?teacher" alt="instructor img">
+                                                    <div class="instructor-name">Kevin Harpen</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(90928)</span>
+                                                </div>
+                                                <div class="price">$ 59</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                                <!-- courses item starts -->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="courses-item">
+                                        <a href="course-details.html" class="link">
+                                            <div class="courses-item-inner">
+                                                <div class="img-box">
+                                                    <img src="https://source.unsplash.com/500x600/?gown" alt="course img">
+                                                </div>
+                                                <h3 class="title">Fashion Technology For Beginners</h3>
+                                                <div class="instructor">
+                                                    <img src="https://source.unsplash.com/500x600/?pizza" alt="instructor img">
+                                                    <div class="instructor-name">John Doe</div>
+                                                </div>
+                                                <div class="rating">
+                                                    <span class="average-rating">(4.5)</span>
+                                                    <span class="average-stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half"></i>
+                                                    </span>
+                                                    <span class="reviews">(113450)</span>
+                                                </div>
+                                                <div class="price">$ 59</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- courses item ends -->
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-3">
+                    <!-- pagination starts -->
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item">
+                                <a href="#" class="page-link" aria-label="Previous">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                            </li>
+                            <li class="page-item"><a href="#" class="page-link">1</a></li>
+                            <li class="page-item"><a href="#" class="page-link">2</a></li>
+                            <li class="page-item active"><a href="#" class="page-link">3</a></li>
+                            <li class="page-item"><a href="#" class="page-link">4</a></li>
+                            <li class="page-item disabled"><a href="#" class="page-link">...</a></li>
+                            <li class="page-item"><a href="#" class="page-link">40</a></li>
+                            <li class="page-item">
+                                <a href="#" aria-label="Next" class="page-link">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- pagination ends -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- courses section ends -->
+
+
+    <!-- footer starts -->
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-item">
+                        <h3 class="footer-logo"><span>Fashion</span>ista</h3>
+                        <ul>
+                            <li><a href="index.html">About Us</a></li>
+                            <li><a href="index.html">What We Offer</a></li>
+                            <li><a href="index.html">Careers</a></li>
+                            <li><a href="index.html">Certificates</a></li>
+                            <li><a href="index.html">Blogs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-item">
+                        <h3>Learning</h3>
+                        <ul>
+                            <li><a href="index.html">Get the app</a></li>
+                            <li><a href="index.html">Testimonials</a></li>
+                            <li><a href="index.html">Prices</a></li>
+                            <li><a href="index.html">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-item">
+                        <h3>More</h3>
+                        <ul>
+                            <li><a href="index.html">Affiliates</a></li>
+                            <li><a href="index.html">Become a Course Creater</a></li>
+                            <li><a href="index.html">Training Webinars</a></li>
+                            <li><a href="index.html">Free Personality Tests</a></li>
+                            <li><a href="index.html">Help and Support Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-item">
+                        <h3>Get in Touch</h3>
+                        <ul>
+                            <li><a href="index.html"><i class="fab fa-facebook-f social-icon"></i> Facebook</a></li>
+                            <li><a href="index.html"><i class="fab fa-twitter social-icon"></i> Twitter</a></li>
+                            <li><a href="index.html"><i class="fab fa-instagram social-icon"></i> Instagram</a></li>
+                            <li><a href="index.html"><i class="fab fa-youtube social-icon"></i> Youtube</a></li>
+                            <li><a href="index.html"><i class="fab fa-linkedin-in social-icon"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="m-0 py-4 text-center">Copyright &copy. 2023. Fashionista. All Rights Reserved.</p>
+        </div>
+    </div>
+    <!-- footer ends -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+</div>
+
+<!-- main wrapper ends -->
+
+
+<!-- style switcher starts -->
+<div class="style-switcher js-style-switcher">
+    <div class="style-switcher-toggler js-style-switcher-toggler">
+        <i class="fas fa-cog"></i>
+    </div>    
+        <h3>Style Switcher</h3>
+        <div class="style-switcher-item">
+            <p class="mb-2">Theme Colors</p>
+            <div class="theme-colors js-theme-colors">
+                <button type="button" data-js-theme-color="color-1" class="js-theme-color-item color-1"></button>
+                <button type="button" data-js-theme-color="color-2" class="js-theme-color-item color-2"></button>
+                <button type="button" data-js-theme-color="color-3" class="js-theme-color-item color-3"></button>
+                <button type="button" data-js-theme-color="color-4" class="js-theme-color-item color-4"></button>
+                <button type="button" data-js-theme-color="color-5" class="js-theme-color-item color-5"></button>
+            </div>
+        </div>
+        <div class="style-switcher-item">
+            <div class="form-check form-switch">
+                <input class="form-check-input js-dark-mode" type="checkbox" id="dark-mode">
+                <label class="form-check-label" for="dark-mode">Dark Mode</label>
+            </div>
+        </div>
+        <div class="style-switcher-item">
+            <div class="form-check form-switch">
+                <input class="form-check-input js-glass-effect" type="checkbox" id="glass-effect">
+                <label class="form-check-label" for="glass-effect">Glass Effect</label>
+            </div>
+        </div>
+    
+</div>
+<!-- style switcher ends -->
+
+    
+    <script src="main.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

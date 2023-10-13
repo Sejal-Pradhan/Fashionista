@@ -1,0 +1,12 @@
+
+:root{
+    --main-color: hsl(277, 74%, 61%);
+    --button-hover-color: hsl(277, 57%, 53%);
+    --body-bg-color: hsl(277, 63%, 97%);
+    --border-color-2: hsl(277, 40%, 93%);
+    --shadow: 0 0 10px hsl(277, 40%, 90%);
+    --body-gradient-bg-color-1: hsla(277, 100%, 50%, 0.2);
+    --body-gradient-bg-color-2: hsla(36, 100%, 50%, 0.2);
+    --decoration-bg-color-1: hsl(277, 100%, 70%);
+    --decoration-bg-color-2: hsl(36, 100%, 70%);
+}
